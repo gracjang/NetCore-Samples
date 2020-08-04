@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keltek.API", "Keltek.API\Keltek.API.csproj", "{5A0479B5-1F8F-4A38-BF82-EDEFA83CB1C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keltek.API", "Patterns\Repository1.0\Keltek.API\Keltek.API.csproj", "{5A0479B5-1F8F-4A38-BF82-EDEFA83CB1C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{25E18C78-5500-4911-A694-8DCA92126DA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keltek.Infrastructure", "Patterns\Repository1.0\Keltek.Services\Keltek.Infrastructure.csproj", "{B0098F2E-DAA4-43D0-91AF-5F2146A76165}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository1.0", "Repository1.0", "{F5D9FD0E-A9C5-4962-A750-57CDFE873016}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keltek.Infrastructure", "Keltek.Services\Keltek.Infrastructure.csproj", "{B0098F2E-DAA4-43D0-91AF-5F2146A76165}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keltek.Core", "Keltek.Core\Keltek.Core.csproj", "{9DD5C945-AE2E-4555-A836-EBED533CE544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keltek.Core", "Patterns\Repository1.0\Keltek.Core\Keltek.Core.csproj", "{9DD5C945-AE2E-4555-A836-EBED533CE544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,12 +30,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5A0479B5-1F8F-4A38-BF82-EDEFA83CB1C8} = {F5D9FD0E-A9C5-4962-A750-57CDFE873016}
-		{F5D9FD0E-A9C5-4962-A750-57CDFE873016} = {25E18C78-5500-4911-A694-8DCA92126DA6}
-		{B0098F2E-DAA4-43D0-91AF-5F2146A76165} = {F5D9FD0E-A9C5-4962-A750-57CDFE873016}
-		{9DD5C945-AE2E-4555-A836-EBED533CE544} = {F5D9FD0E-A9C5-4962-A750-57CDFE873016}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08A7006C-C9B8-47FE-94D6-3F0831870152}
